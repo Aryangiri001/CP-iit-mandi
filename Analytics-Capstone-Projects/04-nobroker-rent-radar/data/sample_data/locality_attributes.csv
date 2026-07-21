@@ -1,0 +1,16 @@
+locality_name,zone,metro_access,tech_park_proximity
+Indiranagar,east,yes,no
+Koramangala,south,yes,yes
+HSR Layout,south,no,yes
+Whitefield,east,yes,yes
+Marathahalli,east,yes,yes
+JP Nagar,south,no,no
+BTM Layout,south,yes,no
+Jayanagar,south,yes,no
+Electronic City,south,no,yes
+Hebbal,north,yes,no
+Yelahanka,north,no,no
+Bannerghatta Road,south,no,no
+Sarjapur Road,east,no,yes
+Malleshwaram,west,yes,no
+Rajajinagar,west,yes,no
