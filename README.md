@@ -35,14 +35,6 @@ Explore the interactive Tableau dashboard below.
 
 ---
 
-### Dashboard Preview
-
-> *(Insert Dashboard Screenshot Here)*
-
-![Dashboard](images/dashboard_preview.png)
-
----
-
 ### Dashboard Features
 
 ✅ Executive KPIs
@@ -429,14 +421,6 @@ The model was evaluated using:
 
 ---
 
-### Confusion Matrix
-
-> *(Insert Logistic Regression Confusion Matrix Here)*
-
-![Logistic Regression](images/confusion_matrix_lr.png)
-
----
-
 ## Business Interpretation
 
 Logistic Regression established the baseline performance for this project.
@@ -475,14 +459,6 @@ Unlike a single Decision Tree, Random Forest aggregates predictions from hundred
 
 ---
 
-### Confusion Matrix
-
-> *(Insert Random Forest Confusion Matrix Here)*
-
-![Random Forest](images/confusion_matrix_rf.png)
-
----
-
 ## Feature Importance
 
 One of the major advantages of Random Forest is its ability to rank the importance of each feature.
@@ -494,14 +470,6 @@ One of the major advantages of Random Forest is its ability to rank the importan
 - Customer Rating
 - Product Category
 - Delivery Partner Rating
-
----
-
-### Feature Importance Plot
-
-> *(Insert Feature Importance Graph Here)*
-
-![Feature Importance](images/feature_importance_rf.png)
 
 ---
 
@@ -541,14 +509,6 @@ Unlike a single Decision Tree, Random Forest aggregates predictions from hundred
 
 ---
 
-### Confusion Matrix
-
-> *(Insert Random Forest Confusion Matrix Here)*
-
-![Random Forest](images/confusion_matrix_rf.png)
-
----
-
 ## Feature Importance
 
 One of the major advantages of Random Forest is its ability to rank the importance of each feature.
@@ -560,14 +520,6 @@ One of the major advantages of Random Forest is its ability to rank the importan
 - Customer Rating
 - Product Category
 - Delivery Partner Rating
-
----
-
-### Feature Importance Plot
-
-> *(Insert Feature Importance Graph Here)*
-
-![Feature Importance](images/feature_importance_rf.png)
 
 ---
 
@@ -646,14 +598,6 @@ Because of its high predictive accuracy, efficiency, and robustness, XGBoost has
 
 ---
 
-### Confusion Matrix
-
-> *(Insert XGBoost Confusion Matrix Here)*
-
-![XGBoost](images/confusion_matrix_xgb.png)
-
----
-
 ## Feature Importance
 
 The XGBoost model identified the following variables as the most influential predictors:
@@ -663,14 +607,6 @@ The XGBoost model identified the following variables as the most influential pre
 - Product Category
 - Customer Rating
 - Delivery Partner Rating
-
----
-
-### Feature Importance Plot
-
-> *(Insert XGBoost Feature Importance Here)*
-
-![Feature Importance](images/feature_importance_xgb.png)
 
 ---
 
@@ -834,22 +770,6 @@ A Tableau dashboard was developed to provide an interactive visualization of Bli
 ✔ Payment Method Analysis
 
 ✔ Machine Learning Insights
-
----
-
-## Dashboard Preview
-
-> *(Insert Dashboard Screenshot Here)*
-
-![Dashboard](images/dashboard_preview.png)
-
----
-
-## Live Dashboard
-
-🔗 **Tableau Public Link**
-
-*(Add your Tableau Public URL here)*
 
 ---
 
