@@ -1,236 +1,204 @@
-**Blinkit Capstone Project**
+<div align="center">
 
-# 🚀 Blinkit Quick-Commerce SLA Diagnostic
-### Predicting Delivery Delays and Identifying Operational Bottlenecks using Machine Learning
+# 📊 Blinkit Quick-Commerce SLA Diagnostic
 
-## 📌 Project Overview
+### Predicting Delivery Delays & Identifying Operational Bottlenecks using SQL, Python, Machine Learning & Tableau
 
-This project analyzes a Quick-Commerce delivery dataset to identify the key factors influencing delivery delays and build a machine learning model capable of predicting whether an order will be delivered late.
-
-The project combines **SQL, Python, Exploratory Data Analysis (EDA), Machine Learning, and Business Intelligence** to provide actionable insights for improving operational efficiency and customer satisfaction.
-
----
-
-## 🎯 Business Problem
-
-Quick-commerce companies promise deliveries within a short time window. However, delivery delays can negatively impact customer satisfaction and operational performance.
-
-The objective of this project is to:
-
-- Analyze delivery operations
-- Identify factors causing late deliveries
-- Predict delayed orders using Machine Learning
-- Recommend business strategies to improve delivery performance
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+![SQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-red?style=for-the-badge)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=for-the-badge&logo=tableau)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github)
 
 ---
 
-# 📂 Project Structure
+## 🚀 End-to-End Data Analytics & Machine Learning Project
 
-```text
-Blinkit-Capstone-Project/
-│
-├── data/
-│   ├── Final dataset.csv
-│   └── Data_Dictionary.xlsx
-│
-├── notebooks/
-│   └── Blinkit_Analysis.ipynb
-│
-├── sql/
-│   └── Blinkit_SQL_Queries.sql
-│
-├── dashboard/
-│   └── Blinkit_Dashboard.twb
-│
-├── reports/
-│   ├── Project_Charter.pdf
-│   ├── Business_Memo.pdf
-│   └── Final_Report.pdf
-│
-├── images/
-│
-└── README.md
-```
+**From raw operational data to executive business recommendations**
+
+Built using **SQL, Python, Exploratory Data Analysis (EDA), Machine Learning, XGBoost, and Tableau Dashboarding**
+
+</div>
 
 ---
 
-# 📊 Dataset Information
 
-The dataset contains delivery records from a simulated Quick-Commerce platform.
+# 📈 Live Interactive Dashboard
 
-### Features
+Explore the interactive Tableau dashboard below.
 
-- Order ID
+🔗 **Live Dashboard**
+
+> *(Add your Tableau Public link here)*
+
+---
+
+### Dashboard Preview
+
+> *(Insert Dashboard Screenshot Here)*
+
+![Dashboard](images/dashboard_preview.png)
+
+---
+
+### Dashboard Features
+
+✅ Executive KPIs
+
+✅ Delivery Performance Analysis
+
+✅ City-wise Operational Insights
+
+✅ Product Category Analysis
+
+✅ Customer Behaviour
+
+✅ Machine Learning Insights
+
+---
+
+# 📌 Executive Summary
+
+## Project Scope
+
+A comprehensive analytics and machine learning study was conducted on **54,499 Blinkit delivery records** to identify operational bottlenecks, understand delivery behaviour, and predict delayed deliveries before dispatch.
+
+The project combines **SQL**, **Python**, **Machine Learning**, and **Business Intelligence** to transform raw delivery data into actionable operational insights.
+
+---
+
+## Business Objective
+
+The primary objective was to answer three business questions:
+
+- Why are deliveries getting delayed?
+- Which operational factors contribute most to SLA breaches?
+- Can machine learning predict delayed deliveries before they occur?
+
+---
+
+## Executive Highlights
+
+| Metric | Result |
+|---------|---------|
+| Total Records | **54,499** |
+| Features | **13** |
+| Machine Learning Models | **3** |
+| Final Model | **XGBoost** |
+| Final Accuracy | **98.28%** |
+| Final F1 Score | **0.93** |
+
+---
+
+## Key Findings
+
+✔ Delivery distance significantly impacts delivery delays.
+
+✔ Certain cities consistently experience longer delivery times.
+
+✔ Product category influences fulfillment duration.
+
+✔ Customer ratings show correlation with delivery performance.
+
+✔ XGBoost achieved the highest predictive performance among all evaluated models.
+
+---
+
+## Business Impact
+
+The developed predictive model can assist operations teams by:
+
+- Identifying high-risk deliveries before dispatch.
+- Optimizing rider allocation.
+- Improving route planning.
+- Reducing SLA violations.
+- Enhancing customer satisfaction.
+
+---
+
+# 🎯 Business Problem
+
+Quick-commerce platforms promise ultra-fast deliveries to customers.
+
+However, operational challenges such as traffic congestion, delivery distance, inventory availability, rider allocation, and demand spikes often result in delayed deliveries.
+
+Late deliveries negatively affect:
+
+- Customer Satisfaction
+- Operational Efficiency
+- Brand Reputation
+- Customer Retention
+- SLA Compliance
+
+The organization requires a data-driven solution capable of identifying operational bottlenecks while proactively predicting delayed deliveries.
+
+---
+
+# 🎯 Project Objectives
+
+The project aims to:
+
+- Analyze Blinkit delivery operations using SQL.
+- Perform comprehensive Exploratory Data Analysis.
+- Discover operational bottlenecks.
+- Engineer predictive features.
+- Train multiple Machine Learning models.
+- Compare model performance.
+- Select the best predictive model.
+- Generate actionable business recommendations.
+- Visualize insights through Tableau dashboards.
+
+---
+
+# 📂 Dataset Overview
+
+The dataset contains operational delivery records collected from Blinkit's quick-commerce ecosystem.
+
+| Property | Value |
+|-----------|---------|
+| Domain | Quick-Commerce |
+| Records | 54,499 |
+| Features | 13 |
+| Dataset Type | Structured CSV |
+| Target Variable | Late_Delivery |
+
+---
+
+## Dataset Features
+
+- Order_ID
 - Company
 - City
-- Customer Age
-- Order Value
-- Delivery Time
-- Distance
-- Items Count
-- Product Category
-- Payment Method
-- Customer Rating
-- Discount Applied
-- Delivery Partner Rating
+- Customer_Age
+- Order_Value
+- Delivery_Time_Min
+- Distance_Km
+- Items_Count
+- Product_Category
+- Payment_Method
+- Customer_Rating
+- Discount_Applied
+- Delivery_Partner_Rating
 
-Target Variable:
+---
 
-**Late_Delivery**
+## Target Variable
+
+A new target feature was engineered.
 
 ```
-0 = On Time
+Late_Delivery
 
-1 = Late Delivery
+0 → On-Time Delivery
+
+1 → Late Delivery
 ```
 
----
-
-# 🛠 Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- MySQL
-- Tableau
-- VS Code
-- Git & GitHub
+The target variable was created based on delivery time threshold rules to transform the business problem into a binary classification task.
 
 ---
 
-# 📈 Exploratory Data Analysis
 
-The following analyses were performed:
 
-- Missing Value Analysis
-- Duplicate Check
-- Delivery Time Distribution
-- City-wise Orders
-- Product Category Analysis
-- Payment Method Analysis
-- Customer Rating Analysis
-- Correlation Heatmap
-- Distance vs Delivery Time
-- Feature Relationships
-
----
-
-# 🤖 Machine Learning Pipeline
-
-### Data Preprocessing
-
-- Data Cleaning
-- Feature Engineering
-- One-Hot Encoding
-- Standard Scaling
-- Train-Test Split
-
----
-
-## Models Used
-
-### 1️⃣ Logistic Regression
-
-Used as the baseline classification model.
-
-### 2️⃣ Random Forest Classifier
-
-Selected as the final model due to superior predictive performance.
-
----
-
-# 📊 Model Performance
-
-| Model | Accuracy |
-|---------|----------|
-| Logistic Regression | 97% |
-| Random Forest | **98.04%** |
-
-Random Forest achieved the best overall performance and was selected as the final model.
-
----
-
-# ⭐ Feature Importance
-
-The Random Forest model identified the following important predictors:
-
-- City
-- Distance
-- Order Value
-- Customer Age
-- Items Count
-
-These features significantly influence delivery delays.
-
----
-
-# 💡 Business Recommendations
-
-Based on the analysis:
-
-- Increase delivery resources in high-risk cities.
-- Improve route optimization for long-distance deliveries.
-- Monitor delivery partner performance.
-- Optimize inventory placement.
-- Deploy predictive delay monitoring for proactive intervention.
-
----
-
-# 📊 Dashboard
-
-The Tableau dashboard includes:
-
-- Total Orders
-- Average Delivery Time
-- Revenue
-- Customer Ratings
-- Delivery Partner Ratings
-- City-wise Analysis
-- Product Category Analysis
-- Delivery Delay Insights
-
----
-
-# 📌 Key Learnings
-
-This project demonstrates:
-
-- SQL for Data Analysis
-- Data Cleaning
-- Exploratory Data Analysis
-- Feature Engineering
-- Machine Learning
-- Model Evaluation
-- Business Intelligence
-- Dashboard Development
-
----
-
-# 🚀 Future Improvements
-
-- Implement XGBoost for model comparison
-- Hyperparameter Optimization
-- Real-time prediction system
-- Deployment using Flask/FastAPI
-- Cloud deployment (AWS/Azure/GCP)
-
----
-
-# 📬 Contact
-
-**Aryan Giri**
-
-B.Tech CSE (AI & ML)
-
-LinkedIn: *(Add your LinkedIn URL here)*
-
-GitHub: *(Add your GitHub Profile URL here)*
-
-Email: *(Add your Email here)*
-
----
-
-## ⭐ If you found this project useful, consider giving it a star!
